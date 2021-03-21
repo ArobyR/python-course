@@ -19,6 +19,10 @@ cursor.execute(sql_query)  # execute the query
 
 data = cursor.fetchall()  # get data
 # conn.commit()
+
+for record in data:
+    print(record)
+    
 print(data)
 
 cursor.close()

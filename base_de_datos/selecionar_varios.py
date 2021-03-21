@@ -12,8 +12,8 @@ sql_query = 'SELECT * FROM persona WHERE id_persona IN (%s, %s, %s)'
 entrada = input("Proporciona las pk a buscar (separdas por coma): ")
 tupla = tuple(entrada.split(','))
 print(tupla)
-# llaves_primarias = ((1, 2, 3),)
-cursor.execute(sql_query, tupla)
+llaves_primarias = (tupla,)
+cursor.execute(sql_query, llaves_primarias)
 
 data = cursor.fetchall()
 
