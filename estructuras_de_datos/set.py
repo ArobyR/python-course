@@ -1,6 +1,6 @@
-'''set es una collecion sin orden y sin indices, no permite 
-elmentos y los elementos no se pueden modificar, pero si agregar nuevos
-o eliminar
+''' set es una collecion sin orden, sin indices, no permite 
+    elmentos duplicados y los elementos no se pueden modificar, 
+    pero si agregar nuevos o eliminar
 '''
 planetas = {"Marte", "Jupiter", "Venus"}
 
