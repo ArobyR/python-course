@@ -1,4 +1,4 @@
-import pg
+import psycopg2 as db 
 
 class Conexion:
     
